@@ -1,0 +1,225 @@
+$CB : #000;
+
+// 2. edu 영역
+.main .cont {
+  width: 100%;
+  min-width: 1260px;
+  overflow: hidden;
+}
+
+.main .cont-edu {
+  margin-bottom: 140px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.main .cont .inner {
+  width: 1260px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.main .cont-edu .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0 0 0 30px;
+}
+
+// 2-1. 왼쪽 사이드 영역
+.main .cont .wrap-tit {
+  color : $CB;
+}
+
+.main .cont-edu .inner .wrap-tit {
+  width: 188px;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  position: relative;
+}
+
+.main .cont-edu .inner .wrap-tit::before {
+  content: "";
+  display: block;
+  width: 257px;
+  height: 294px;
+  opacity: 0.4;
+  position: absolute;
+  top: 70px;
+  right: 130px;
+  z-index: -1;
+  background: url(/images/dot-gray.png) repeat 0 0;
+}
+
+.main .cont .wrap-tit .tit {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.main .cont-edu .inner .wrap-tit .tit {
+  margin-bottom: 25px;
+}
+
+.main .cont .wrap-tit .eng-tit {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Gotham";
+  font-weight: 600;
+}
+
+.main .cont-edu .inner .wrap-contents {
+  width: calc(100% - 188px);
+}
+
+.main .cont-edu .inner .wrap-contents .tab-edu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .cont-edu .inner .wrap-contents .tab-edu li {
+  margin-right: 30px;
+  padding-bottom: 5px;
+  position: relative;
+  cursor: pointer;
+  color: #999;
+}
+
+.main .cont-edu .inner .wrap-contents .tab-edu li.active {
+  font-weight: bold;
+  color: #000;
+}
+
+.main .cont-edu .inner .wrap-contents .tab-edu li.active::after, .main .cont-edu .inner .wrap-contents .tab-edu li:hover::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #d99700;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+// 탭 메인 영역
+
+.main .cont-edu .inner .wrap-contents .tab-contents .contents {
+  display : none;
+}
+
+.main .cont-edu .inner .wrap-contents .tab-contents .contents.active {
+  display : block;
+}
+
+.main .cont-edu .inner .wrap-contents .tab-contents .contents .edu-swiper {
+  padding-bottom : 55px;
+}
+
+.main .cont-edu .inner .wrap-contents .tab-contents .contents .edu-swiper .wrap-cont .edu-list {
+  width: 270px;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+main .contents .wrap-cont .edu-list .edu-cont {
+  border: 1px solid #ebebeb;
+}
+
+.main .cont-edu .inner .wrap-contents .tab-contents .contents .edu-swiper .wrap-cont .edu-list .edu-cont a {
+  display: block;
+  position: relative;
+}
+
+.main .cont-edu .inner .wrap-contents .tab-contents .contents .edu-swiper .wrap-cont .edu-list .edu-cont a .wrap-img {
+  position : relative;
+  overflow : hidden;
+}
+
+.main .cont-edu .inner .wrap-contents .tab-contents .contents .edu-swiper .wrap-cont .edu-list .edu-cont a .wrap-img img {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 340px;
+  height: 240px;
+  max-width: none;
+}
+
+.main .cont-edu .inner .wrap-contents .tab-contents .contents .edu-swiper .wrap-cont .edu-list .edu-cont a .wrap-hover {
+  width: 100%;
+  height: 100%;
+  padding: 0 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: bottom;
+  transform-origin: bottom;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  background: #5a439c;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.main .cont-edu .inner .wrap-contents .tab-contents .contents .edu-swiper .wrap-cont .edu-list .edu-cont a .wrap-hover .tit {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: bold;
+  word-break: keep-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.main .cont-edu .inner .wrap-contents .tab-contents .contents .edu-swiper .wrap-cont .edu-list .edu-cont a .wrap-hover .desc {
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 22px;
+  word-break: keep-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.main .cont-edu .inner .wrap-contents .tab-contents .contents .edu-swiper .wrap-cont .edu-list .edu-cont a .wrap-hover .view-more .icon-arrow-view {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
+.icon {
+  display: block;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.main .cont-edu .inner .wrap-contents .tab-contents .contents .edu-swiper .wrap-cont .edu-list:hover .edu-cont a .wrap-hover {
+  transition: all 0.5s;
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+  -webkit-box-shadow: -10px 0px 10px -10px rgba(0, 0, 0, 0.7), 10px 0px 10px -10px #000000;
+          box-shadow: -10px 0px 10px -10px rgba(0, 0, 0, 0.7), 10px 0px 10px -10px #000000;
+}
+
+.main .cont-edu .inner .wrap-contents .tab-contents .contents .edu-swiper .swiper-scrollbar {
+  width: 984px;
+  height: 2px;
+  left: 0;
+  bottom: 14px;
+}

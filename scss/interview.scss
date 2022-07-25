@@ -1,0 +1,132 @@
+// 3. interview 영역
+.main .cont-interview .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.main .cont-interview .inner::before {
+  content: "";
+  display: block;
+  width: 257px;
+  height: 294px;
+  opacity: 0.4;
+  position: absolute;
+  top: -40px;
+  right: -135px;
+  z-index: -1;
+  background: url(/images/dot-gray.png) repeat 0 0;
+}
+
+// 3-1.왼쪽 사이드 영역
+.main .cont-interview .inner .left-area {
+  width: 720px;
+  position: relative;
+}
+
+.main .cont-interview .inner .left-area .wrap-tit {
+  margin-bottom : 50px;
+}
+
+.main .cont-interview .inner .left-area .wrap-tit .tit {
+  margin-bottom: 30px;
+}
+
+.main .cont .wrap-tit .tit strong {
+  font-family: "Gotham";
+  font-weight: bold;
+}
+
+.main .cont-interview .inner .left-area .wrap-contents {
+  color : #000000;
+}
+
+.main .cont-interview .inner .left-area .wrap-contents .int-tit {
+  margin-bottom: 15px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.main .cont-interview .inner .left-area .wrap-contents .desc {
+  padding-right: 140px;
+  margin-bottom: 25px;
+  font-size: 14px;
+  line-height: 22px;
+  word-break: keep-all;
+}
+
+.main .cont-interview .inner .left-area .wrap-contents .view-more {
+  width: 160px;
+  margin-bottom: 60px;
+}
+
+.view-more .icon-arrow-view {
+  margin-left: 10px;
+  width: 56px;
+  height: 7px;
+  background-image: url(/images/icon-arrow-view.png);
+}
+
+.main .cont-interview .inner .left-area .wrap-contents .view-more:hover {
+  color: #f6ab00;
+}
+
+.main .cont-interview .inner .left-area .wrap-contents .view-more:hover .icon-arrow-view {
+  background-image: url(/images/icon-arrow-view-yellow.png);
+}
+
+.main .cont-interview .inner .left-area .wrap-contents .interview-min-swiper {
+  width: 660px;
+  padding-bottom: 56px;
+  margin: 0;
+  position: relative;
+}
+
+.main .cont-interview .inner .left-area .wrap-contents .interview-min-swiper .swiper-wrapper .swiper-slide {
+  width: 200px;
+  margin-right: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.main .cont-interview .inner .left-area .wrap-contents .interview-min-swiper .swiper-wrapper .swiper-slide img {
+  width: 200px;
+  height: 270px;
+}
+
+.main .cont-interview .inner .left-area .wrap-contents .interview-min-swiper .wrap-etc {
+  width: 144px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: #000; //이 부분 배경색 들어가면 삭제 필요
+}
+
+.main .swiper-button-next {
+  right: 0;
+  background-image: url(/images/icon-btn-next-white.png);
+}
+
+.main .swiper-button-prev {
+  left: 0;
+  background-image: url(/images/icon-btn-prev-white.png);
+}
+
+//3-2. 오른쪽 영역
+.main .cont-interview .inner .right-area {
+  width : 480px;
+}
+
+.swiper-container-fade .swiper-slide {
+  pointer-events: none;
+  transition-property: opacity;
+}
+
+.main .cont-interview .inner .right-area .interview-big-swiper .swiper-wrapper .swiper-slide img {
+  max-width: 100%;
+  vertical-align: middle;
+}
