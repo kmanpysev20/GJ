@@ -16,7 +16,7 @@
   top: -40px;
   right: -135px;
   z-index: -1;
-  background: url(./images/dot-gray.png) repeat 0 0;
+  background: url(../images/dot-gray.png) repeat 0 0;
 }
 
 // 3-1.왼쪽 사이드 영역
@@ -65,7 +65,7 @@
   margin-left: 10px;
   width: 56px;
   height: 7px;
-  background-image: url(./images/icon-arrow-view.png);
+  background-image: url(../images/icon-arrow-view.png);
 }
 
 .main .cont-interview .inner .left-area .wrap-contents .view-more:hover {
@@ -73,7 +73,7 @@
 }
 
 .main .cont-interview .inner .left-area .wrap-contents .view-more:hover .icon-arrow-view {
-  background-image: url(./images/icon-arrow-view-yellow.png);
+  background-image: url(../images/icon-arrow-view-yellow.png);
 }
 
 .main .cont-interview .inner .left-area .wrap-contents .interview-min-swiper {
@@ -108,12 +108,12 @@
 
 .main .swiper-button-next {
   right: 0;
-  background-image: url(./images/icon-btn-next-white.png);
+  background-image: url(../images/icon-btn-next-white.png);
 }
 
 .main .swiper-button-prev {
   left: 0;
-  background-image: url(./images/icon-btn-prev-white.png);
+  background-image: url(../images/icon-btn-prev-white.png);
 }
 
 //3-2. 오른쪽 영역

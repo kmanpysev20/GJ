@@ -46,7 +46,7 @@
   top: 70px;
   right: 130px;
   z-index: -1;
-  background: url(/images/dot-gray.png) repeat 0 0;
+  background: url(../images/dot-gray.png) repeat 0 0;
 }
 
 .main .cont .wrap-tit .tit {

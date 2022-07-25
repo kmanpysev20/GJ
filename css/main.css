@@ -5,6 +5,24 @@
   z-index: 1;
 }
 
+.main-top {
+  width: 100%;
+  min-width: 1260px;
+  height: 80px;
+  background-color: #333;
+  position: relative;
+}
+
+.main-top .main-top-wrap {
+  width: 1260px;
+  height: 80px;
+  padding: 0 30px;
+  border: 1px solid orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .main .wrap-visual .main-visual-swiper {
   width: 100%;
   min-width: 1260px;
@@ -13,52 +31,52 @@
 }
 
 .main .wrap-visual .main-visual-swiper .swiper-wrapper .swiper-slide:nth-of-type(1) {
-  background: url(/images/Main_Banner_01.jpg) no-repeat center top;
+  background: url(../images/Main_Banner_01.jpg) no-repeat center top;
   background-size: auto 100%;
 }
 
 .main .wrap-visual .main-visual-swiper .swiper-wrapper .swiper-slide:nth-of-type(2) {
-  background: url(/images/Main_Banner_02.jpg) no-repeat center top;
+  background: url(../images/Main_Banner_02.jpg) no-repeat center top;
   background-size: auto 100%;
 }
 
 .main .wrap-visual .main-visual-swiper .swiper-wrapper .swiper-slide:nth-of-type(3) {
-  background: url(/images/Main_Banner_03.jpg) no-repeat center top;
+  background: url(../images/Main_Banner_03.jpg) no-repeat center top;
   background-size: auto 100%;
 }
 
 .main .wrap-visual .main-visual-swiper .swiper-wrapper .swiper-slide:nth-of-type(4) {
-  background: url(/images/Main_Banner_04.jpg) no-repeat center top;
+  background: url(../images/Main_Banner_04.jpg) no-repeat center top;
   background-size: auto 100%;
 }
 
 .main .wrap-visual .main-visual-swiper .swiper-wrapper .swiper-slide:nth-of-type(5) {
-  background: url(/images/Main_Banner_05.jpg) no-repeat center top;
+  background: url(../images/Main_Banner_05.jpg) no-repeat center top;
   background-size: auto 100%;
 }
 
 .main .wrap-visual .main-visual-swiper .swiper-wrapper .swiper-slide:nth-of-type(6) {
-  background: url(/images/Main_Banner_06.jpg) no-repeat center top;
+  background: url(../images/Main_Banner_06.jpg) no-repeat center top;
   background-size: auto 100%;
 }
 
 .main .wrap-visual .main-visual-swiper .swiper-wrapper .swiper-slide:nth-of-type(7) {
-  background: url(/images/Main_Banner_07.jpg) no-repeat center top;
+  background: url(../images/Main_Banner_07.jpg) no-repeat center top;
   background-size: auto 100%;
 }
 
 .main .wrap-visual .main-visual-swiper .swiper-wrapper .swiper-slide:nth-of-type(8) {
-  background: url(/images/Main_Banner_08.jpg) no-repeat center top;
+  background: url(../images/Main_Banner_08.jpg) no-repeat center top;
   background-size: auto 100%;
 }
 
 .main .wrap-visual .main-visual-swiper .swiper-wrapper .swiper-slide:nth-of-type(9) {
-  background: url(/images/Main_Banner_09.jpg) no-repeat center top;
+  background: url(../images/Main_Banner_09.jpg) no-repeat center top;
   background-size: auto 100%;
 }
 
 .main .wrap-visual .main-visual-swiper .swiper-wrapper .swiper-slide:nth-of-type(10) {
-  background: url(/images/Main_Banner_10.jpg) no-repeat center top;
+  background: url(../images/Main_Banner_10.jpg) no-repeat center top;
   background-size: auto 100%;
 }
 
@@ -242,7 +260,7 @@
 
 .main .swiper-button-next {
   right: 0;
-  background-image: url(/images/icon-btn-next-white.png);
+  background-image: url(../images/icon-btn-next-white.png);
 }
 
 .main .swiper-button {
@@ -256,7 +274,7 @@
 
 .main .swiper-button-prev {
   left: 0;
-  background-image: url(/images/icon-btn-prev-white.png);
+  background-image: url(../images/icon-btn-prev-white.png);
 }
 
 .main .wrap-visual .poster-wrap {
@@ -288,3 +306,4 @@
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
+
