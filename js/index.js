@@ -1,5 +1,5 @@
-//main swiper
-const MainSwiper = new Swiper('.visual-poster-swiper', {
+//poster swiper
+let posterswiper = new Swiper('.visual-poster-swiper1', {
     slidesPerView: 'auto',
     // loop: true,
     freeMode: true,
@@ -9,18 +9,18 @@ const MainSwiper = new Swiper('.visual-poster-swiper', {
     mousewheel: true,
 });
 
-//sub swiper
-const SubSwiper = new Swiper('.main-visual-swiper', {
+//main swiper
+const mainswiper = new Swiper('.main-visual-swiper', {
     // loop: true,
     loopedSlides: 5,
     effect: 'fade',
-    autoplay: {
-        delay: 1000,
-        disableOnInteraction: false,
-    },
-    thumbs: {
-        swiper: MainSwiper,
-    },
+    // autoplay: {
+    //     delay: 1000,
+    //     disableOnInteraction: false,
+    // },
+    // thumbs: {
+    //     swiper: posterswiper,
+    // },
     pagination: {
         el: '.swiper-pagination',
         type: 'fraction',
@@ -79,3 +79,24 @@ const footer = new Swiper('.distributor-swiper', {
     }
 });
 
+//quick 영역
+
+    //top 버튼 터치 시 페이지 상단
+    function btnTop() {
+    window.scrollTo({top:0, left:0 , behavior: 'smooth'})
+}
+
+    //+ 버튼 터치 영역
+    function btnPlus() {
+        let click = document.getElementById("hw");
+        let plusimg = document.getElementById("plusimg");   
+
+        if(click.style.display != "block") {
+            click.style.display ="block";
+            plusimg.setAttribute("src", "images/icon-delete.png");
+        } else {
+            click.style.display = "none";
+            plusimg.setAttribute("src", "images/icon-plus-white.png");
+        }
+
+    }

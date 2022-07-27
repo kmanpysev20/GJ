@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/edu.css">
   <link rel="stylesheet" href="css/interview.css">
+  <link rel="stylesheet" href="css/quick.css">
   <link rel="stylesheet" href="css/footer.css">
 </head>
 
@@ -595,45 +596,44 @@
         </div>
         <span class = "swiper-notification"></span>
       </div>
-
-      <!-- 1-4. 메인 슬라이드 포스터 영역 -->
-      <div class = "poster-wrap">
-        <div class = "swiper-container visual-poster-swiper">
-          <div class = "swiper-wrapper">
-            <div class = "swiper-slide">
-              <img src="./images/poster1.jpg" alt="">
-            </div>
-            <div class = "swiper-slide">
-              <img src="./images/poster2.jpg" alt="">
-            </div>
-            <div class = "swiper-slide">
-              <img src="./images/poster3.jpg" alt="">
-            </div>
-            <div class = "swiper-slide">
-              <img src="./images/poster4.jpg" alt="">
-            </div>
-            <div class = "swiper-slide">
-              <img src="./images/poster5.jpg" alt="">
-            </div>
-            <div class = "swiper-slide">
-              <img src="./images/poster6.jpg" alt="">
-            </div>
-            <div class = "swiper-slide">
-              <img src="./images/poster7.jpg" alt="">
-            </div>
-            <div class = "swiper-slide">
-              <img src="./images/poster8.jpg" alt="">
-            </div>
-            <div class = "swiper-slide">
-              <img src="./images/poster9.jpg" alt="">
-            </div>
-            <div class = "swiper-slide">
-              <img src="./images/poster10.jpg" alt="">
-            </div>
+    <!-- 1-4. 메인 슬라이드 포스터 영역 -->
+    <div class = "poster-wrap">
+      <div class = "swiper-container visual-poster-swiper">
+        <div class = "swiper-wrapper">
+          <div class = "swiper-slide">
+            <img src="./images/poster1.jpg" alt="">
           </div>
-          <span class = "swiper-notification"></span>
+          <div class = "swiper-slide">
+            <img src="./images/poster2.jpg" alt="">
+          </div>
+          <div class = "swiper-slide">
+            <img src="./images/poster3.jpg" alt="">
+          </div>
+          <div class = "swiper-slide">
+            <img src="./images/poster4.jpg" alt="">
+          </div>
+          <div class = "swiper-slide">
+            <img src="./images/poster5.jpg" alt="">
+          </div>
+          <div class = "swiper-slide">
+            <img src="./images/poster6.jpg" alt="">
+          </div>
+          <div class = "swiper-slide">
+            <img src="./images/poster7.jpg" alt="">
+          </div>
+          <div class = "swiper-slide">
+            <img src="./images/poster8.jpg" alt="">
+          </div>
+          <div class = "swiper-slide">
+            <img src="./images/poster9.jpg" alt="">
+          </div>
+          <div class = "swiper-slide">
+            <img src="./images/poster10.jpg" alt="">
+          </div>
         </div>
       </div>
+    </div>
+      
     </div>
 
    <!-- 2. edu 영역 -->
@@ -1396,6 +1396,65 @@
       </div>
     </div>
     <div class = "CB"></div>
+
+    <!-- 5. quick 메뉴 영역 -->
+<div class="quick-position">
+    <div class="quick-menu">
+        
+        <!-- 5.1 quick 메뉴 Top 영역 -->
+        <button onclick = "btnTop()" class="btn btn-top">
+            <i class="icon icon-top"></i>
+        </button>
+
+        <!-- 5.2 quick 메뉴 plus 영역 -->
+        <button onclick = "btnPlus()"  id ="btnPlusId" class="btn btn-plus">
+          <img src="./images/icon-plus-white.png" id="plusimg" class ="icon icon-plus">
+        </button>
+
+        <div class="hidden-wrap">
+            <ul class="hidden-menu open" id = "hw">
+                <li>
+                    <a href="/html/subpage.html">
+                        <p class="txt">문의 및 제안</p>
+                        <p class="shape">
+                            <i class="icon icon-heart"></i>
+                        </p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/html/subpage.html">
+                        <p class="txt">홍보신청</p>
+                        <p class="shape">
+                            <i class="icon icon-regi"></i>
+                        </p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/html/subpage.html">
+                        <p class="txt">이용안내</p>
+                        <p class="shape">
+                            <i class="icon icon-info"></i>
+                        </p>
+                    </a>
+                </li>
+
+                <li>
+                    <button class="btn btn-share">
+                        <a href="/html/subpage.html">
+                            <p class="txt">공유</p>
+                            <p class="shape">
+                                <i class="icon icon-share"></i>
+                            </p>
+                        </button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
   </main>
 
   <!-- ------------------------------------------------ -->

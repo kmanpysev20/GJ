@@ -1,0 +1,165 @@
+.quick-position {
+  width: 1300px;
+  position: fixed;
+  left: 0;
+  top: 50%;
+  z-index: 5;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.quick-position .quick-menu {
+  position: absolute;
+  right: -400px;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+}
+
+.btn {
+  border-radius: 0;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  display: block;
+}
+
+.quick-position .quick-menu > .btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-left: auto;
+}
+
+.quick-position .quick-menu > .btn-top {
+  background: #ccc;
+  cursor: pointer;
+}
+
+.quick-position .icon-top {
+  width: 24px;
+  height: 16px;
+  margin: 0 auto;
+  background-image: url(../images/icon-top.png);
+}
+
+.quick-position .quick-menu > .btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-left: auto;
+}
+
+.quick-position .quick-menu > .btn-plus {
+  background: #f6ab00;
+  margin: 8px 0 8px auto;
+  cursor: pointer;
+}
+
+.quick-position .icon-plus {
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+.quick-position .icon-close {
+  width: 17px;
+  height: 17px;
+  margin: 0 auto;
+}
+
+.quick-position .quick-menu .hidden-wrap {
+  height: 240px;
+}
+
+.quick-position .quick-menu .hidden-menu {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  padding-right: 5px;
+  -webkit-transform-origin: bottom;
+  transform-origin: bottom;
+}
+
+.quick-position .quick-menu .hidden-menu li {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.quick-position .quick-menu .hidden-menu li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.quick-position .quick-menu .hidden-menu li a .txt {
+  margin-right: 15px;
+  font-size: 14px;
+  color: #999;
+  text-align: right;
+}
+
+.quick-position .quick-menu .hidden-menu li a .shape {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+  background: #ccc;
+}
+
+.quick-position .icon-heart {
+  width: 19px;
+  height: 17px;
+  background-image: url(../images/icon-heart.png);
+}
+
+.quick-position .icon-regi {
+  width: 22px;
+  height: 20px;
+  background-image: url(../images/icon-regi.png);
+}
+
+.quick-position .icon-info {
+  width: 21px;
+  height: 19px;
+  background-image: url(../images/icon-info.png);
+}
+
+.quick-position .icon-share {
+  width: 15px;
+  height: 21px;
+  background-image: url(../images/icon-share-black.png);
+}
+
+.quick-position .quick-menu .hidden-menu li .btn-share {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-left: auto;
+}
