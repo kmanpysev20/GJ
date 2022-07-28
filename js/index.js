@@ -1,5 +1,5 @@
 //poster swiper
-let posterswiper = new Swiper('.visual-poster-swiper1', {
+const posterswiper = new Swiper('.visual-poster-swiper', {
     slidesPerView: 'auto',
     // loop: true,
     freeMode: true,
@@ -14,13 +14,13 @@ const mainswiper = new Swiper('.main-visual-swiper', {
     // loop: true,
     loopedSlides: 5,
     effect: 'fade',
-    // autoplay: {
-    //     delay: 1000,
-    //     disableOnInteraction: false,
-    // },
-    // thumbs: {
-    //     swiper: posterswiper,
-    // },
+    autoplay: {
+        delay: 1000,
+        disableOnInteraction: false,
+    },
+    thumbs: {
+        swiper: posterswiper,
+    },
     pagination: {
         el: '.swiper-pagination',
         type: 'fraction',
