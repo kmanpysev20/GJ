@@ -5,11 +5,6 @@
   z-index: 1;
 }
 
-.swiper-container-fade .swiper-slide {
-  // pointer-events: none;
-  transition-property: opacity;
-}
-
 // 1-1. 메인 슬라이드 영역
 .main .wrap-visual .main-visual-swiper {
   width: 100%;
@@ -274,7 +269,7 @@
   height: 305px;
   margin: 0 auto;
   position: absolute;
-  left: 0;
+  left: 15%;
   bottom: 35px;
   z-index: 1;
   overflow: auto;
@@ -285,7 +280,7 @@
   min-width: 526px;
   height: 305px;
   position: absolute;
-  left : 20%;
+  left : 30%;
   bottom: 0;
 }
 
